@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.synature.mpos.FoodCourtCardPayActivity" >
+
+    <item
+        android:id="@+id/itemConfirm"
+        android:showAsAction="always|withText"
+        android:title="@string/confirm" android:icon="@drawable/ic_action_accept"/>
+
+</menu>

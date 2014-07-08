@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" ><item android:id="@+id/itemSendSale" android:title="@string/send_sale_data" android:showAsAction="always|withText" android:icon="@drawable/ic_action_upload"/><item android:id="@+id/itemHoldBill" android:showAsAction="always|withText" android:title="@string/hold_bill" android:icon="@drawable/ic_action_copy"></item>
+    <item android:id="@+id/itemReport" android:showAsAction="always|withText" android:title="@string/report" android:icon="@drawable/ic_action_paste">
+    </item>
+    <item android:id="@+id/itemUtility" android:showAsAction="always|withText" android:title="@string/utility" android:icon="@drawable/ic_action_phone">
+        <menu><item android:id="@+id/itemReprint" android:title="@string/reprint_receipt" android:titleCondensed="Reprint receipt if print fail at first time." /><item android:id="@+id/itemVoid" android:title="@string/void_bill" android:titleCondensed="Void receipt if incorrect." /><item android:id="@+id/itemCloseShift" android:title="@string/close_shift" android:visible="false"/><item android:id="@+id/itemSendEndday" android:title="@string/send_endday_data" /><item android:id="@+id/itemEndday" android:title="@string/endday"/>
+            
+            
+        </menu>
+    </item>
+    
+    <item android:id="@+id/itemSwUser" android:showAsAction="always|withText" android:title="@string/switch_user" android:icon="@drawable/ic_action_cc_bcc"></item>
+    <item android:id="@+id/itemLogout" android:showAsAction="always|withText" android:title="@string/logout" android:icon="@drawable/ic_action_secure"></item>
+    <item android:id="@+id/itemSetting" android:title="@string/setting" android:showAsAction="collapseActionView" android:icon="@drawable/ic_action_settings"></item>
+    
+    
+    
+
+</menu>

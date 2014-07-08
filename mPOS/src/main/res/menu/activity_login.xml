@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemSetting" android:title="@string/setting" android:showAsAction="always|withText" android:icon="@drawable/ic_action_settings"></item>
+    <item android:id="@+id/itemAbout" android:title="@string/about" android:showAsAction="collapseActionView"></item>
+    <item android:id="@+id/itemUpdate" android:title="@string/update_data" android:showAsAction="always|withText" android:icon="@drawable/ic_action_download"></item>
+    <item android:id="@+id/itemClearSale" android:title="Test Clear Sale"></item>
+    <item android:id="@+id/itemExit" android:title="@string/exit"></item>
+    
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemReset" android:title="@string/reset" android:showAsAction="always|withText" android:icon="@drawable/ic_action_refresh"></item><item android:id="@+id/itemConfirm" android:showAsAction="always|withText" android:title="@string/confirm" android:icon="@drawable/ic_action_accept"></item>
+    
+    
+    
+
+</menu>

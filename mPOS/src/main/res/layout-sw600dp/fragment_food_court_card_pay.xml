@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/txtTotal"
+        android:layout_marginTop="48dp"
+        android:gravity="right"
+        android:text="@string/card_no"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/larger_text_size" />
+
+    <EditText
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:ems="7"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:lines="1"
+        android:singleLine="true"
+        android:textSize="@dimen/larger_text_size" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtCardNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/txtTotal"
+        android:ems="8"
+        android:imeOptions="actionSearch"
+        android:lines="1"
+        android:singleLine="true"
+        android:textSize="@dimen/larger_text_size" />
+
+    <EditText
+        android:id="@+id/txtBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/txtCardNo"
+        android:clickable="false"
+        android:ems="7"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:singleLine="true"
+        android:textSize="@dimen/larger_text_size" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="58dp"
+        android:layout_toLeftOf="@+id/txtBalance"
+        android:gravity="right"
+        android:text="@string/balance"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/larger_text_size" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txtTotal"
+        android:gravity="right"
+        android:text="@string/total"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/larger_text_size" />
+
+    <ImageButton
+        android:id="@+id/btnCheckCard"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_toRightOf="@+id/txtCardNo"
+        android:src="@android:drawable/ic_menu_search" />
+    
+</RelativeLayout>

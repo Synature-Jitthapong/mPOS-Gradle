@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.synature.mpos.SendEnddayActivity" >
+
+    <item android:id="@+id/itemClose" android:icon="@drawable/ic_action_cancel" android:title="@string/close" android:showAsAction="always|withText"></item><item
+        android:id="@+id/itemSendAll"
+        android:showAsAction="always|withText"
+        android:title="@string/send_endday_data" android:icon="@drawable/ic_action_accept"/>
+    <item
+        android:id="@+id/itemProgress"
+        android:actionLayout="@layout/progress"
+        android:showAsAction="always"
+        android:visible="false">
+    </item>
+    
+
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemCreateReport" android:showAsAction="always|withText" android:title="@string/create_report" android:icon="@drawable/ic_action_paste"></item><item android:id="@+id/itemPrint" android:showAsAction="always|withText" android:title="@string/print"></item>
+
+</menu>

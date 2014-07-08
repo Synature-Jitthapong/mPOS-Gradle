@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/wintec_customer_display_settings"><CheckBoxPreference android:defaultValue="true" android:key="enable_dsp" android:title="@string/enable_wintec_customer_display"/><ListPreference android:key="dsp_wintec_dev_path" android:title="@string/wintec_dev_path" android:entries="@array/devices_path_name" android:defaultValue="/dev/ttySAC3" android:entryValues="@array/devices_path_value" android:dependency="enable_dsp"/><ListPreference android:key="dsp_wintec_baud_rate" android:title="@string/baud_rate" android:entries="@array/baudrates_name" android:entryValues="@array/baudrates_value" android:defaultValue="BAUD_9600" android:dependency="enable_dsp"/>
+    
+</PreferenceCategory>
+    
+
+</PreferenceScreen>

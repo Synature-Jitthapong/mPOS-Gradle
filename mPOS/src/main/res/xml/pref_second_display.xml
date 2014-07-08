@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/second_display_setting" android:summary="@string/second_display_setting_summary">
+        <CheckBoxPreference android:title="@string/enable_second_display" android:key="enable_second_display" android:defaultValue="false"/><EditTextPreference android:title="@string/ip_address" android:key="second_display_ip" android:dependency="enable_second_display"/>
+        <EditTextPreference android:title="@string/port" android:key="second_display_port" android:dependency="enable_second_display" android:defaultValue="@string/default_second_display_port"/>
+        
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

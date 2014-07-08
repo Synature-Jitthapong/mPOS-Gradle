@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="8dp"
+    android:gravity="center_vertical"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="@dimen/medium_space" >
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvOrderNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/menuInfoContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?android:selectableItemBackground"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="?android:listPreferredItemPaddingLeft"
+        android:paddingRight="?android:listPreferredItemPaddingRight" >
+
+        <TextView
+            android:id="@+id/tvOrderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/tvOrderPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnComment"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_manage" />
+
+    <ImageButton
+        android:id="@+id/btnSetModify"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit" />
+
+    <Button
+        android:id="@+id/btnOrderMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dip"
+        android:text="@string/minus"
+        android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+    <EditText
+        android:id="@+id/txtOrderQty"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnOrderPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dip"
+        android:text="@string/plus"
+        android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+</LinearLayout>

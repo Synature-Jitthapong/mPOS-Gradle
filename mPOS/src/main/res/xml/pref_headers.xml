@@ -1,0 +1,26 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.synature.mpos.SettingsActivity$ConnectionPreferenceFragment"
+        android:title="@string/connection"/>
+    <header
+        android:fragment="com.synature.mpos.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/general_setting"/>
+	<header
+        android:fragment="com.synature.mpos.SettingsActivity$PrinterPreferenceFragment"
+        android:title="@string/printer_setting"/>
+	<header
+        android:fragment="com.synature.mpos.SettingsActivity$DrwPreferenceFragment"
+        android:title="@string/wintec_cash_drawer_settings"/>
+	<header
+        android:fragment="com.synature.mpos.SettingsActivity$MsrPreferenceFragment"
+        android:title="@string/wintec_magnetic_reader_settings"/>
+	<header
+        android:fragment="com.synature.mpos.SettingsActivity$DspPreferenceFragment"
+        android:title="@string/wintec_customer_display_settings"/>
+    <header
+        android:fragment="com.synature.mpos.SettingsActivity$SecondDisplayPreferenceFragment"
+        android:title="@string/second_display_setting"/>
+</preference-headers>

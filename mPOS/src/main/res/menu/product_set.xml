@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.syn.mpos.ProductSetActivity" >
+    <item android:id="@+id/itemConfirm" android:icon="@drawable/ic_action_accept" android:title="@string/confirm" android:showAsAction="always|withText"></item>
+
+</menu>

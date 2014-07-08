@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="xxxxxxxxxxxxxxxxx"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/larger_text_size" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:text="@string/balance"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/larger_text_size" />
+
+    <EditText
+        android:id="@+id/txtCardBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:clickable="false"
+        android:ems="5"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textSize="@dimen/larger_text_size" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

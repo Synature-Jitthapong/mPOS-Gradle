@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_printer_name">
+        <item>TM-T81</item><item >@string/tm_t88v</item>
+        
+    </string-array>
+    <string-array name="pref_printer_value">
+        <item>TM-T88V</item><item >@string/tm_t88v</item>
+        
+    </string-array>
+    <string-array name="pref_printer_font_name">
+        <item>@string/font_medium</item>
+        <item>@string/font_small</item>
+    </string-array>
+    <string-array name="pref_printer_font_value">
+        <item>b</item>
+        <item>c</item>
+    </string-array>
+    <string name="tm_t88v">TM-T88V</string>
+    <string name="font_medium">Medium</string>
+    <string name="font_small">Small</string>
+    <string name="default_second_display_port">6600</string>
+     <string-array name="baudrates_name">
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>500000</item>
+        <item>576000</item>
+        <item>921600</item>
+        <item>1000000</item>
+        <item>1152000</item>
+    </string-array>
+    <string-array name="baudrates_value">
+        <item>BAUD_9600</item>
+        <item>BAUD_19200</item>
+        <item>BAUD_38400</item>
+        <item>BAUD_57600</item>
+        <item>BAUD_115200</item>
+        <item>BAUD_230400</item>
+        <item>BAUD_460800</item>
+        <item>BAUD_500000</item>
+        <item>BAUD_576000</item>
+        <item>BAUD_921600</item>
+        <item>BAUD_1000000</item>
+        <item>BAUD_1152000</item>
+    </string-array>
+    <string-array name="devices_path_name">
+        <item>/dev/ttySAC0</item>
+        <item>/dev/ttySAC1</item>
+        <item>/dev/ttySAC2</item>
+        <item>/dev/ttySAC3</item>
+    </string-array>
+    <string-array name="devices_path_value">
+        <item>/dev/ttySAC0</item>
+        <item>/dev/ttySAC1</item>
+        <item>/dev/ttySAC2</item>
+        <item>/dev/ttySAC3</item>
+    </string-array>
+    <string-array name="connection_time_out_name">
+        <item>10ms.</item>
+        <item>15ms.</item>
+        <item>30ms.</item>
+        <item>45ms.</item>
+        <item>60ms.</item>
+    </string-array>
+    <string-array name="connection_time_out_value">
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+</resources>

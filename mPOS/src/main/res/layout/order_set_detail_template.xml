@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="8dp"
+    android:gravity="center_vertical"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="@dimen/medium_space" >
+
+    <include
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        layout="@layout/order_set_item" />
+
+    <Button
+        android:id="@+id/btnSetMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:minWidth="48dp"
+        android:text="@string/minus" />
+
+    <EditText
+        android:id="@+id/txtSetQty"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="1" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSetPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:minWidth="48dp"
+        android:text="@string/plus" />
+
+</LinearLayout>
